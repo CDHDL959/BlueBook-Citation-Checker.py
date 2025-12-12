@@ -7,6 +7,9 @@ To run on macOS, open terminal and change your directory (i.e. 'Folder') to wher
 Type into the terminal < python3 BluebookChecker_GUI.py > and the application will open in a new window. 
 Make sure you have python3.14 installed since macOS does not have it natively. 
 
+## GUI Output
+<img width="1109" height="1020" alt="Citation_Checker_Bluebook" src="https://github.com/user-attachments/assets/957b2bb5-38b6-4229-8541-df8ad3cbeb86" />
+
 ## What Does it Do?
 * Regular expressions (regex) via the re module for pattern matching.
 * Uses Classes to organize the logic.
