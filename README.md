@@ -14,7 +14,7 @@ Make sure you have python3.14 installed since macOS does not have it natively.
 * Had to account for Supreme Court citations having a slightly different format, altered the regex pattern to accommodate and added two patterns to check: (1) with court and (2) without court.
 * Checks for proper "v." separator with periods and spaces.
 * Validates two-party format.
-* Suggestsmcommon abbreviations.
+* Suggests common abbreviations.
 * Will recognize common reporters (US, F.3d, F.4th, A.2d, P.3d, etc).
 * Numerically, checks if volume numbers are numeric, validates page numbers and pin cites, and year must be 4 digits (1700 - present).
 * Validates against common court abbreviations.
