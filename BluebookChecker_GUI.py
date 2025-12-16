@@ -290,13 +290,13 @@ class BluebookCheckerGUI:
         self.results_text.grid(row=0, column=0, sticky=(tk.W, tk.E, tk.N, tk.S))
 
         # configuring text tags for colored output
-        self.results_text.tag_config('valid', foreground='#2d5016', font=('Courier', 10, 'bold'))
-        self.results_text.tag_config('invalid', foreground='#b91c1c', font=('Courier', 10, 'bold'))
+        self.results_text.tag_config('valid', foreground='#2d5016', font=('Courier', 15, 'bold'))
+        self.results_text.tag_config('invalid', foreground='#b91c1c', font=('Courier', 15, 'bold'))
         self.results_text.tag_config('error', foreground='#b91c1c')
         self.results_text.tag_config('warning', foreground='#b45309')
         self.results_text.tag_config('info', foreground='#1e40af')
         self.results_text.tag_config('component', foreground='#0e7490')
-        self.results_text.tag_config('header', font=('Courier', 10, 'bold'))
+        self.results_text.tag_config('header', font=('Courier', 15, 'bold'))
 
         # example citations to be displayed
         examples_frame = ttk.LabelFrame(main_frame, text="Example Citations", padding="10")
